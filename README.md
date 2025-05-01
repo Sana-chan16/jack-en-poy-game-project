@@ -1,13 +1,14 @@
-# 📅 PHP Calendar Project
+# ✊🖐✌ Jack en Poy (Rock Paper Scissors) - PHP Game
 
-This is a simple calendar web application built with **PHP + HTML + CSS**.  
-It displays a monthly calendar with navigation buttons to switch between months.
+A simple **Human vs Bot** Rock-Paper-Scissors game built using **PHP**.  
+The bot randomly selects its move, and you can play against it right from your browser!
 
-## 🔥 Features
-- Shows current month and year
-- Navigate to previous and next months
-- Highlights **today's date**
-- Simple, clean design
+---
+
+## 🎮 How to Play
+- Choose your move: **Rock (✊), Paper (🖐), or Scissors (✌)**.
+- The bot will randomly choose its move.
+- The result (Win, Lose, or Draw) will be displayed after each round.
 
 ---
 
@@ -16,12 +17,12 @@ It displays a monthly calendar with navigation buttons to switch between months.
 ### ✅ Option 1: Using PHP Built-in Server (Recommended)
 
 1. Make sure **PHP** is installed on your computer.
-    - You can check by running:
+    - Check by running:
       ```bash
       php -v
       ```
 
-2. Open your terminal (or VS Code terminal) and navigate to the project folder:
+2. Open your terminal (or VS Code terminal) and go to the project folder:
     ```bash
     cd path/to/your/project
     ```
@@ -38,34 +39,35 @@ It displays a monthly calendar with navigation buttons to switch between months.
 
 ---
 
-### ✅ Option 2: Using XAMPP / WAMP / Laragon (with Apache)
+### ✅ Option 2: Using XAMPP / WAMP / Laragon (Apache Server)
 
-1. Install **XAMPP** (or WAMP/Laragon).
-2. Copy your project folder into:
+1. Install **XAMPP** (or WAMP, Laragon).
+2. Copy your project folder into the `htdocs` directory (for XAMPP):
     ```
     xampp/htdocs/
     ```
 
 3. Start **Apache** from the XAMPP control panel.
-4. Visit in browser:
+4. Open your browser and go to:
     ```
     http://localhost/yourfilename.php
     ```
 
 ---
 
-## ❓ Why can't I just double-click the `.php` file?
-PHP files need to be processed by a **PHP server** (like Apache or PHP built-in server).  
-Browsers can't directly run PHP code — they only display the result after PHP executes it.
+## ❓ Why do I need PHP server?
+PHP files (like this game) need to be executed by PHP before they show up properly in the browser.  
+You can't just double-click `.php` — you need to run through a PHP server!
 
 ---
 
 ## 📦 Requirements
 - PHP 7.x or higher
-- Optional: Apache server (XAMPP, WAMP, Laragon)
+- Optional: XAMPP / WAMP / Laragon
 
 ---
 
 ## 🙌 Author
-Feel free to use or modify this project!
+Built as a fun **Human vs Bot** project using PHP!
 
+Enjoy playing Jack en Poy! 🎉
